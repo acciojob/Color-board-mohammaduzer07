@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			let ele = this; // this keyword has (reference) refers to the square 
 			ele.style.backgroundColor = '#56a5e3';
 			setTimeout(function () {
-				ele.style.backgroundColor = 'white';
+				ele.style.backgroundColor = 'rgb(29, 29, 29)';
 			}, 1000);
 			
 		});
