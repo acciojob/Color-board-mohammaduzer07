@@ -13,18 +13,18 @@ body{
 }
 .container{
 	display: grid;
-	grid-template-columns: repeat(20, 1fr);
-	gap: 5px;
+	grid-template-columns: repeat(25, 1fr);
+	gap: 2px;
 	flex-wrap: wrap;
 	max-width: 800px;
 }
 .square{
 	background-color: #1d1d1d;
     box-shadow: 0 0 2px #000;
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	margin: 2px;
-	transition: 5s ease;
+	transition: background-color 1s;
 	cursor: pointer;
 }
 .square:hover{
